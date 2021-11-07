@@ -1,9 +1,11 @@
 import "./App.css";
-import Home from "./Containers/container";
+import HeaderContainer from "./Containers/HeaderContainer";
+import HomeContainer from "./Containers/HomeContainer";
 const App = () => {
   return (
     <div className='App'>
-      <Home />
+      <HeaderContainer />
+      <HomeContainer />
     </div>
   );
 };

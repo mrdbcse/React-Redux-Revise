@@ -1,14 +1,10 @@
 import "./Home.css";
-const Home = () => {
+const Home = (props) => {
+  console.log("Props in Home.js", props);
   return (
     <>
       <h1>PRODUCTS</h1>
-      <div className='add-to-cart'>
-        <img
-          src='https://static.thenounproject.com/png/47398-200.png'
-          alt='img'
-        />
-      </div>
+
       <div className='cart-wrapper'>
         <div className='img-wrapper item'>
           <img
@@ -21,8 +17,20 @@ const Home = () => {
           <span>Price: $1000.00</span>
         </div>
         <div className='btn-wrapper item'>
-          <button>Add to cart</button>
-          <button>Remove from cart</button>
+          <button
+            onClick={() =>
+              props.addToCartHandler({ price: 1000, name: "iPhone 11" })
+            }
+          >
+            Add to cart
+          </button>
+          <button
+            onClick={() =>
+              props.removeToCartHandler({ price: 1000, name: "iPhone 11" })
+            }
+          >
+            Remove from cart
+          </button>
         </div>
       </div>
     </>
