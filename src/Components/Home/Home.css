@@ -17,6 +17,7 @@
   width: 100px;
   margin-left: 100%;
   box-shadow: #333 0px 1px 5px;
+  margin-bottom: 5px;
 }
 .text-wrapper span {
   font-weight: bold;

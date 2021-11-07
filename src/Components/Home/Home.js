@@ -22,6 +22,7 @@ const Home = () => {
         </div>
         <div className='btn-wrapper item'>
           <button>Add to cart</button>
+          <button>Remove from cart</button>
         </div>
       </div>
     </>
