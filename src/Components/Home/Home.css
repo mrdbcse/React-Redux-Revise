@@ -1,0 +1,38 @@
+.cart-wrapper {
+  height: 150px;
+  width: 500px;
+  border: 1px solid #ccc;
+  margin-left: 10%;
+}
+.img-wrapper img {
+  width: 100px;
+  margin-top: -20px;
+}
+.btn-wrapper button {
+  background-color: yellowgreen;
+  border: 0px;
+  padding: 10px;
+  border-radius: 4px;
+  color: #fff;
+  width: 100px;
+  margin-left: 100%;
+  box-shadow: #333 0px 1px 5px;
+}
+.text-wrapper span {
+  font-weight: bold;
+  display: inline-block;
+  font-display: initial;
+}
+.item {
+  float: left;
+  /* display: inline-block; */
+  width: 120px;
+  padding: 20px;
+  height: 70px;
+}
+.add-to-cart img {
+  width: 50px;
+  position: absolute;
+  right: 1%;
+  top: 1%;
+}

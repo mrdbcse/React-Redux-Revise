@@ -1,0 +1,7 @@
+----------Components
+----------Containers
+----------Service
+            |
+            |-------actions
+            |-------reducers
+            |-------constants

@@ -1,8 +1,9 @@
 import "./App.css";
+import Home from "./Containers/container";
 const App = () => {
   return (
     <div className='App'>
-      <h1>React Redux</h1>
+      <Home />
     </div>
   );
 };
